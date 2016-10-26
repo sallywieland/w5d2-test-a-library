@@ -10,7 +10,6 @@ describe('MoDom', function() {
   describe('md.one()', function() {
     it('should find one matching element using CSS selector', function() {
       md.one('span')
-      // expect(document.querySelector('span'))
       expect(md.one('span').innerHTML).to.equal('Toggle navigation')
     })
   })
